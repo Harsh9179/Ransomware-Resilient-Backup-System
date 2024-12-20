@@ -1,0 +1,62 @@
+/* Container Styling */
+.restore-container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+}
+
+/* Title */
+.title {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Input Field */
+.restore-input {
+  margin-bottom: 20px;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.input-field:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+/* Restore Button */
+.restore-button {
+  margin-top: 10px;
+}
+
+.button {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:disabled {
+  background-color: #007bff88;
+  cursor: not-allowed;
+}
+
+.button:hover:not(:disabled) {
+  background-color: #0056b3;
+}

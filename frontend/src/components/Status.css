@@ -1,0 +1,41 @@
+/* Container Styling */
+.status-container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+}
+
+/* Title */
+.title {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Loading and Error Messages */
+.loading {
+  font-size: 16px;
+  color: #007bff;
+}
+
+.error {
+  font-size: 16px;
+  color: #dc3545;
+}
+
+/* Status Output */
+.status-output {
+  font-size: 14px;
+  color: #212529;
+  background-color: #e9ecef;
+  padding: 10px;
+  border-radius: 4px;
+  text-align: left;
+  white-space: pre-wrap;
+}
